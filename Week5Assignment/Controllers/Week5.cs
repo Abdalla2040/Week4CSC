@@ -18,7 +18,14 @@ namespace Week5Assignment.Controllers
                                        "Last Name: " + x.Lname + "\n" + 
                                        "Date of Birth: " + x.DOB + "\n"
                                        ));
+            loggingFunction();
             return input;
         }
+        void loggingFunction()
+        {
+            Console.WriteLine("making changes for the new branch called LoggingFunction\n");
+            
+        }
+        
     }
 }
